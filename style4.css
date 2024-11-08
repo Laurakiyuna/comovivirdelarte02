@@ -35,12 +35,12 @@ p {
     position: absolute;
     top: 20px;
     left: 50px;
-    font-size: 1em; /* Ajusta el tamaño de la fuente si es necesario */
+    font-size: 0.5em; /* Ajusta el tamaño de la fuente si es necesario */
 }
 
 .underline-name {
     font-weight: bold;
-    font-size: 1em; /* Tamaño de la fuente */
+    font-size: 0.5em; /* Tamaño de la fuente */
     text-decoration: underline; /* Aplica subrayado */
     text-decoration-color: #FFEB3B; /* Color amarillo del subrayado */
     text-decoration-thickness: 0.15em; /* Grosor del subrayado */
