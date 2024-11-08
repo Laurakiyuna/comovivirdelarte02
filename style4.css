@@ -32,20 +32,20 @@ p {
 }
 
 .header-left {
-    position: absolute;
-    top: 20px;
-    left: 500px;
-    font-size: 0.5em; /* Ajusta el tamaño de la fuente si es necesario */
+    text-align: left;
+    margin-top: 10px; /* Ajusta según sea necesario para que quede alineado dentro del área blanca */
 }
 
 .underline-name {
     font-weight: bold;
-    font-size: 0.5em; /* Tamaño de la fuente */
-    text-decoration: underline; /* Aplica subrayado */
-    text-decoration-color: #FFEB3B; /* Color amarillo del subrayado */
-    text-decoration-thickness: 0.25em; /* Grosor del subrayado */
-    text-underline-offset: 0.1em; /* Espacio entre el texto y el subrayado */
+    font-size: 1em; /* Igual tamaño que el cuerpo del texto */
+    text-decoration: underline;
+    text-decoration-color: #FFEB3B;
+    text-decoration-thickness: 0.15em;
+    text-underline-offset: 0.1em;
+    color: #000;
 }
+
 
 ul {
     list-style-type: disc;
