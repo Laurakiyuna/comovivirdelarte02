@@ -31,38 +31,21 @@ p {
     margin-bottom: 20px;
 }
 
-.header {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 1.5em; /* Ajusta el tamaño de la fuente según lo necesites */
-}
-
-.highlight {
-    background-color: #FFEB3B; /* Fondo amarillo */
-    padding: 2px 5px;
-    font-weight: bold;
-    font-size: 1em;
-    display: inline-block;
-}
-
-.highlight-name {
-    position: relative;
-    font-weight: bold;
-    font-size: 1em;
-    display: inline-block;
-}
-
-.highlight-name::after {
-    content: "";
+.header-left {
     position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 0.3em; /* Ajusta el grosor del subrayado */
-    background-color: #FFEB3B; /* Color amarillo */
-    z-index: -1; /* Envía el subrayado detrás del texto */
+    top: 20px;
+    left: 20px;
+    font-size: 1.2em; /* Ajusta el tamaño de la fuente si es necesario */
 }
 
+.underline-name {
+    font-weight: bold;
+    font-size: 1.2em; /* Tamaño de la fuente */
+    text-decoration: underline; /* Aplica subrayado */
+    text-decoration-color: #FFEB3B; /* Color amarillo del subrayado */
+    text-decoration-thickness: 0.15em; /* Grosor del subrayado */
+    text-underline-offset: 0.1em; /* Espacio entre el texto y el subrayado */
+}
 
 ul {
     list-style-type: disc;
